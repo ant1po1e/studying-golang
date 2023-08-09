@@ -16,6 +16,6 @@ func Logger() gin.HandlerFunc {
 			param.Path,
 			param.StatusCode,
 			param.Latency,
-	    )
+		)
 	})
 }
