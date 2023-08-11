@@ -23,12 +23,12 @@ func TestGoroutine(t *testing.T) {
 
 
 
-func DisplayNumber (number int) {
+func DisplayNumber(number int) {
 	fmt.Println(number)
 }
 
 func TestManyGoroutine(t *testing.T) {
-	for i := 0; i < 10000; i++ {
+	for i := 0; i < 1000000; i++ {
 		go DisplayNumber(i)
 	}
 
