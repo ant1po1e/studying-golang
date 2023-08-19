@@ -2,10 +2,11 @@ package main
 
 import (
 	"context"
-	pb "grpc-demo/proto"
 	"io"
 	"log"
 	"time"
+
+	pb "github.com/ant1po1e/proto"
 )
 
 func callSayHelloBidirectionalStream(client pb.GreetServiceClient, names *pb.NameList) {

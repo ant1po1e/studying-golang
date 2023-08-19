@@ -1,4 +1,4 @@
-module grpc-demo
+module github.com/ant1po1e
 
 go 1.20
 

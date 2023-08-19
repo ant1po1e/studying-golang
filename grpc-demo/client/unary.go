@@ -5,7 +5,7 @@ import (
 	"log"
 	"time"
 
-	pb "grpc-demo/proto"
+	pb "github.com/ant1po1e/proto"
 )
 
 func callSayHello(client pb.GreetServiceClient) {

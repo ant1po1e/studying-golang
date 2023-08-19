@@ -1,7 +1,7 @@
 package main
 
 import (
-	pb "grpc-demo/proto"
+	pb "github.com/ant1po1e/proto"
 	"log"
 	"time"
 )

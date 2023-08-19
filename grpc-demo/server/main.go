@@ -4,7 +4,7 @@ import (
 	"log"
 	"net"
 
-	pb "grpc-demo/proto"
+	pb "github.com/ant1po1e/proto"
 
 	"google.golang.org/grpc"
 )
